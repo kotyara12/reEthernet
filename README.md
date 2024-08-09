@@ -1,7 +1,7 @@
-# reEthernet for ESP32 / ESP-IDF
+п»ї# reEthernet for ESP32 / ESP-IDF
 
-Библиотека для подключения ESP32 к сети посредством ethernet-соединения. Является хорошей альтернативой широко используемому WiFi-соединению.
-Подробности и перечень поддкрживаемых ethernet-чипов можно найти в документации Espressif: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_eth.html
+Р‘РёР±Р»РёРѕС‚РµРєР° РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ ESP32 Рє СЃРµС‚Рё РїРѕСЃСЂРµРґСЃС‚РІРѕРј ethernet-СЃРѕРµРґРёРЅРµРЅРёСЏ. РЇРІР»СЏРµС‚СЃСЏ С…РѕСЂРѕС€РµР№ Р°Р»СЊС‚РµСЂРЅР°С‚РёРІРѕР№ С€РёСЂРѕРєРѕ РёСЃРїРѕР»СЊР·СѓРµРјРѕРјСѓ WiFi-СЃРѕРµРґРёРЅРµРЅРёСЋ.
+РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё Рё РїРµСЂРµС‡РµРЅСЊ РїРѕРґРґРєСЂР¶РёРІР°РµРјС‹С… ethernet-С‡РёРїРѕРІ РјРѕР¶РЅРѕ РЅР°Р№С‚Рё РІ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё Espressif: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_eth.html
 
 A library for connecting ESP32 to the network via an ethernet connection. It is a good alternative to the widely used WiFi connection.
 Details and a list of supported ethernet chips can be found in the Espressif documentation: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_eth.html
