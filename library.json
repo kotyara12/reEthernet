@@ -1,0 +1,17 @@
+{
+  "name": "reEthernet",
+  "version": "1.0.0",
+  "description": "Connect to the network via an ethernet connection. It is a good alternative to the widely used WiFi connection on the ESP32",
+  "keywords": "ethernet",
+  "authors":
+  [
+    {
+      "name": "Alexander Razzhivin",
+      "email": "kotyara12@yandex.ru",
+      "url": "https://kotyara12.ru"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"]
+}
