@@ -38,8 +38,8 @@ esp_err_t ethernetInit()
 
   // Update vendor specific MAC config based on board configuration
   esp32_emac_config.interface = EMAC_DATA_INTERFACE_RMII;
-  esp32_emac_config.smi_mdc_gpio_num = CONFIG_ETH_GPIO_MDC;
-  esp32_emac_config.smi_mdio_gpio_num = CONFIG_ETH_GPIO_MDIO;
+  esp32_emac_config.smi_gpio.mdc_num = CONFIG_ETH_GPIO_MDC;
+  esp32_emac_config.smi_gpio.mdio_num = CONFIG_ETH_GPIO_MDIO;
   esp32_emac_config.clock_config.rmii.clock_mode = CONFIG_ETH_CLK_MODE;
   esp32_emac_config.clock_config.rmii.clock_gpio = (emac_rmii_clock_gpio_t)CONFIG_ETH_GPIO_CLK;
 
